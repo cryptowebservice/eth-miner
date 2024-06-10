@@ -72,7 +72,7 @@ function App() {
         />
         <main className="w-full px-4 md:max-w-[38rem] mx-auto mt-8 space-y-8 md:space-y-8">
           <h1 className="text-[#fbf5d7] mx-auto text-xl md:text-[2.2rem] leading-relaxed tracking-wide text-center">
-            THE ETH REWARD POOL WITH THE TASTIEST DAILY REWARDS! <br /> Up-to 8%
+            THE ETH REWARD POOL WITH THE FASTIEST DAILY REWARDS! <br /> Up-to 8%
             VARIABLE RETURNS DAILY
           </h1>
           {/* <Button className="block md:hidden py-3 hover:bg-[#fdfde5] rounded-3xl text-xl">

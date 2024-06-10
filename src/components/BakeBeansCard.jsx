@@ -158,7 +158,7 @@ function BakedBeansCard() {
     <div className="bg-[#398bb8] text-[#16205d] rounded-2xl p-4 md:p-8 space-y-6 md:space-y-8 pb-10">
       <TextBox label="Contract" value={`${contractBalances} ETH`} />
       <TextBox label="Wallet" value={`${Number(ethBalance).toFixed(3)} ETH`} />
-      <TextBox label="Your Beans" value={`${beanBalances} BEANS`} />
+      <TextBox label="Your ETH" value={`${beanBalances} ETH`} />
 
       <div className="bg-white border-4 border-black flex items-center justify-between">
         <input
@@ -213,7 +213,7 @@ function BakedBeansCard() {
 
       {Boolean(amount) && (
         <p className="uppercase text-xl md:text-2xl text-center">
-          YOU GET {receiveAmount} beans
+          YOU GET {receiveAmount} ETH
         </p>
       )}
 
@@ -231,14 +231,14 @@ function BakedBeansCard() {
             data-testid="loader"
           />
         ) : (
-          "MINE Beans"
+          "MINE ETH"
         )}
       </Button>
 
       <div className="space-y-2">
         <TextBox label="RE-MINE" value={"YOUR REWARDS"} />
         <TextBox
-          label={`${beansLastHatched} BEANS`}
+          label={`${beansLastHatched} ETH`}
           value={`${Number(reward).toFixed(10)} ETH`}
         />
       </div>
@@ -255,7 +255,7 @@ function BakedBeansCard() {
               data-testid="loader"
             />
           ) : (
-            "HATCH BEANS"
+            "HATCH ETH"
           )}
         </Button>
         <Button className="py-3" onClick={isSelling ? () => {} : sellEgg}>
@@ -269,7 +269,7 @@ function BakedBeansCard() {
               data-testid="loader"
             />
           ) : (
-            "SELL BEANS"
+            "SELL ETH"
           )}
         </Button>
       </div>

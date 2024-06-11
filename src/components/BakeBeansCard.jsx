@@ -117,11 +117,11 @@ function BakedBeansCard() {
       setIsMining(true);
       await mine(amount, myRef);
       setIsMining(false);
-      toast.success("Successfully mined beans");
+      toast.success("Successfully mined ETH");
       window.location.reload();
     } catch (error) {
       setIsMining(false);
-      toast.error("Failed to mine beans");
+      toast.error("Failed to mine ETH");
       console.error(error);
     }
   };
@@ -130,12 +130,12 @@ function BakedBeansCard() {
     try {
       setIsSelling(true);
       await sellEggs();
-      toast.success("Successfully ate beans");
+      toast.success("Successfully ate ETH");
       setIsSelling(false);
       window.location.reload();
     } catch (error) {
       setIsSelling(false);
-      toast.error("Failed to eat beans");
+      toast.error("Failed to eat ETH");
       console.error(error);
     }
   };
@@ -144,11 +144,11 @@ function BakedBeansCard() {
     try {
       setIsHatching(true);
       await hatchEggs(myRef);
-      toast.success("Successfully hatched beans");
+      toast.success("Successfully hatched ETH");
       setIsHatching(false);
       window.location.reload();
     } catch (error) {
-      toast.error(error.reason || "Failed to hatch beans");
+      toast.error(error.reason || "Failed to hatch ETH");
       setIsHatching(false);
       console.error(error);
     }

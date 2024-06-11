@@ -48,9 +48,8 @@ function ReferralCard() {
 
         <div className="text-center w-[90%]">
           <span className="font-roboto text-center">
-            Invite your friends using your link and earn ~10% of any etherium they
-            MINE and 1% of Re-MINES. Referral Rewards are additional and are not
-            deducted from your friends' etherium.
+          Invite your friends using your link and earn ~10% of any ethereum they MINE and 1% 
+          of Re-MINES. Referral Rewards are additional and are not deducted from your friends' ethereum.
           </span>
         </div>
       </div>

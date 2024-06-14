@@ -80,12 +80,14 @@ function App() {
         </Button> */}
 
           <div className="space-y-4">
+          <a href="https://t.me/ETHFinity/10" target="_blank">
             <Button className="py-3 bg-[#398bb8] hover:bg-[#fdfde5]">
-              <span className="md:text-3xl">FAQS</span>
-            </Button>
+              <span className="md:text-3xl">Community</span>
+            </Button></a>
+            <a href="https://t.me/ETHFinity/10" target="_blank">
             <Button className="py-3 bg-[#398bb8] hover:bg-[#fdfde5]">
-              <span className="md:text-3xl">MERCH SHOP</span>
-            </Button>
+              <span className="md:text-3xl">FAQ</span>
+            </Button></a>
           </div>
 
           {selectedCard === "bakedBeans" ? <BakeBeansCard /> : <CoinFlipCard />}

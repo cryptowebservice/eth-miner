@@ -3,7 +3,7 @@ function Footer() {
     <div className="flex flex-col gap-4 items-center justify-center">
       <div className="flex items-center gap-6">
         <a
-          href="https://sepolia.etherscan.io/address/0x6C5664fBcd44E19653F6DfDE699027eA4c23b955"
+          href="https://sepolia.etherscan.io/address/0x000000000000000000000000000000000000"
           target="_blank"
           rel="noreferrer"
         >

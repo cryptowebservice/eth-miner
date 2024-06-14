@@ -83,7 +83,7 @@ function App() {
           <a href="https://t.me/ETHFinity/10" target="_blank">
             <Button className="py-3 bg-[#398bb8] hover:bg-[#fdfde5]">
               <span className="md:text-3xl">Community</span>
-            </Button></a>
+            </Button></a><br><br>
             <a href="https://t.me/ETHFinity/10" target="_blank">
             <Button className="py-3 bg-[#398bb8] hover:bg-[#fdfde5]">
               <span className="md:text-3xl">FAQ</span>

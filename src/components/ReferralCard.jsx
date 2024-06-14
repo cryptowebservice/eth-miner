@@ -32,7 +32,7 @@ function ReferralCard() {
 
   return (
     <div className="space-y-6">
-      <div className="bg-[#bf8854] text-[#16205d] rounded-2xl p-4 flex flex-col items-center gap-5">
+      <div className="bg-[#bf8854] text-[#16205d] rounded-5xl p-4 flex flex-col items-center gap-5">
         <p className="text-2xl uppercase text-center">Referral Link</p>
         <input
           type="text"
